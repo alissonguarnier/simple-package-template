@@ -3,13 +3,16 @@ from setuptools import setup, find_packages
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
+with open("README.md", "r") as arq:
+    readme = arq.read()
+
 setup(
-    name='mathsimple',
+    name='alissimplemath',
     version='0.0.1',
     author='Alisson Guarniêr',
     author_email="alisson.dfla@hotmail.com",
     description='Um pacote simples de operações matemáticas para fins de aprendizado',
-    long_description=open('README.md').read(),
+    long_description=readme,
     long_description_content_type='text/markdown',
     url="https://github.com/alissonguarnier/simple-package-template.git",
     packages=find_packages(),
