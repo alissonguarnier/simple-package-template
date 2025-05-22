@@ -8,7 +8,7 @@ with open("README.md", "r") as arq:
 
 setup(
     name='alissimplemath',
-    version='0.0.1',
+    version='0.0.2',
     author='Alisson Guarniêr',
     author_email="alisson.dfla@hotmail.com",
     description='Um pacote simples de operações matemáticas para fins de aprendizado',

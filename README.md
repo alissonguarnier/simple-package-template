@@ -5,7 +5,7 @@ Este é um pacote de exemplo para realizar operações matemáticas simples: adi
 ## Instalação
 
 ```bash
-pip install mathsimple
+pip install mathsimple1999
 ```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
