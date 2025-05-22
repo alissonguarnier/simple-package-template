@@ -1,27 +1,24 @@
-# package_name
+# mathsimple
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Este é um pacote de exemplo para realizar operações matemáticas simples: adição e subtração.
 
-## Installation
+## Instalação
+
+```bash
+pip install mathsimple
+
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
-```bash
-pip install package_name
-```
-
 ## Usage
 
-```python
-from package_name import file1_name
-file1_name.my_function()
-```
+from mathsimple import somar, subtrair
+
+print(somar(2, 3))      # Saída: 5
+print(subtrair(5, 3))   # Saída: 2
 
 ## Author
-My_name
+Alisson Guarniêr
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
