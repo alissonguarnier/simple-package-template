@@ -7,15 +7,19 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
-    long_description=page_description,
-    long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    name='mathsimple',
+    version='0.0.1',
+    author='Alisson Guarniêr',
+    author_email="alisson.dfla@hotmail.com",
+    description='Um pacote simples de operações matemáticas para fins de aprendizado',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url="https://github.com/alissonguarnier/simple-package-template.git",
     packages=find_packages(),
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+    ],
     install_requires=requirements,
-    python_requires='>=3.8',
+    python_requires='>=3.6',
 )
